@@ -1,3 +1,36 @@
+# Site de Cours de Musique
+
+## Installation
+
+1. Clonez le projet :
+```bash
+git clone https://github.com/jeanmiche7488/mon-projet.git
+cd mon-projet
+```
+
+2. Installez les dépendances :
+```bash
+npm install
+```
+
+3. Configurez les variables d'environnement :
+   - Copiez le fichier `.env.example` en `.env.local`
+   - Remplissez les valeurs avec vos propres clés API :
+     - Configurez les identifiants Google Calendar
+     - Configurez les clés EmailJS
+
+4. Lancez le serveur de développement :
+```bash
+npm run dev
+```
+
+## Fonctionnalités
+
+- Sélection de cours de musique
+- Réservation automatique dans Google Calendar
+- Envoi d'emails de confirmation
+- Interface responsive et moderne
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
